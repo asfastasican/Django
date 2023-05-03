@@ -13,6 +13,7 @@ def tempview(request):
     return render(request,'demoapp/hello.html',context=my_dict)
 
 #This is a Checkpoint
+#This I am changing on GitHub
 
 def emp(request):
     emp_list=Employee.objects.all()
