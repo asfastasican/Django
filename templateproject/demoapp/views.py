@@ -12,7 +12,7 @@ def tempview(request):
     my_dict={"time":datetime.datetime.now()}
     return render(request,'demoapp/hello.html',context=my_dict)
 
-#This is a Checkpoint
+#This is a Checkpoint for diff
 #This I am changing on GitHub
 
 def emp(request):
